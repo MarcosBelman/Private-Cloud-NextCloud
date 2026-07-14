@@ -1,62 +1,29 @@
-# ☁️ Private Cloud using NextCloud
+# ☁️ Implementación de una Nube Privada con Nextcloud
 
-## Overview
+## Descripción
 
-This project documents the deployment of a private cloud environment using NextCloud on Rocky Linux as part of my Engineering Residency Project.
+Este proyecto fue desarrollado como parte de mi residencia profesional de Ingeniería en Sistemas Computacionales.
 
-The objective was to provide secure file storage, synchronization and collaboration services within a local network using open-source technologies.
+El objetivo consistió en implementar una solución de nube privada utilizando Nextcloud sobre Rocky Linux, permitiendo centralizar el almacenamiento de archivos y administrar el acceso de los usuarios dentro de una red local.
 
----
+Durante el proyecto participé en la instalación y configuración del servidor Linux, servicios web, base de datos, integración con almacenamiento NAS y validación del funcionamiento de la plataforma.
 
-## Objectives
+## 🎯 Objetivos
 
-- Deploy a private cloud environment
-- Configure a Linux server
-- Install and configure NextCloud
-- Manage users and storage
-- Provide secure access to shared files
-- Centralize information storage
+- Implementar una plataforma de almacenamiento en la nube utilizando software de código abierto.
+- Configurar un servidor basado en Rocky Linux para alojar la aplicación.
+- Integrar el almacenamiento mediante un dispositivo NAS.
+- Administrar usuarios y permisos de acceso.
+- Validar el funcionamiento de la plataforma en un entorno de red local.
 
----
-
-## Technologies
+## 🛠️ Tecnologías utilizadas
 
 - Rocky Linux
-- NextCloud
-- Apache
+- Nextcloud
+- Apache HTTP Server
 - PHP
 - MariaDB
-- Linux CLI
+- XRDP
+- NAS
+- iSCSI
 - SSH
-- Network configuration
-
----
-
-## Main Activities
-
-- Operating system installation
-- Web server configuration
-- Database configuration
-- NextCloud deployment
-- User administration
-- Shared folder management
-- Performance testing
-- Basic security configuration
-
----
-
-## Skills Demonstrated
-
-- Linux Administration
-- Server Deployment
-- Network Services
-- Database Configuration
-- Cloud Storage
-- Open Source Technologies
-- Technical Documentation
-
----
-
-## Project Status
-
-Completed as part of my Engineering Residency.
